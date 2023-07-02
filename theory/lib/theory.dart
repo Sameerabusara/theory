@@ -20,7 +20,119 @@ class _theoryState extends State<theory> {
       body: Center(
         child: Container(
           child: Column(
-            children: [],
+            children: [
+              Padding(padding: EdgeInsets.all(8.0)),
+              Text(
+                "اشارات المرور",
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                ),
+                textAlign: TextAlign.start,
+              ),
+              Row(
+                children: [
+                  Padding(padding: EdgeInsets.all(4.0)),
+                  ElevatedButton.icon(
+                    onPressed: () {},
+                    icon: Icon(
+                      // <-- Icon
+                      Icons.download,
+                      size: 24.0,
+                    ),
+                    label: Text('Download'), // <-- Text
+                  ),
+                  Padding(padding: EdgeInsets.all(8.0)),
+                  ElevatedButton.icon(
+                    onPressed: () {},
+                    icon: Icon(
+                      // <-- Icon
+                      Icons.download,
+                      size: 24.0,
+                    ),
+                    label: Text('Download'), // <-- Text
+                  ),
+                  Padding(padding: EdgeInsets.all(8.0)),
+                  ElevatedButton.icon(
+                    onPressed: () {},
+                    icon: Icon(
+                      // <-- Icon
+                      Icons.download,
+                      size: 24.0,
+                    ),
+                    label: Text('Download'), // <-- Text
+                  ),
+                ],
+              ),
+              Row(
+                children: [
+                  Padding(padding: EdgeInsets.all(4.0)),
+                  ElevatedButton.icon(
+                    onPressed: () {},
+                    icon: Icon(
+                      // <-- Icon
+                      Icons.download,
+                      size: 24.0,
+                    ),
+                    label: Text('Download'), // <-- Text
+                  ),
+                  Padding(padding: EdgeInsets.all(8.0)),
+                  ElevatedButton.icon(
+                    onPressed: () {},
+                    icon: Icon(
+                      // <-- Icon
+                      Icons.download,
+                      size: 24.0,
+                    ),
+                    label: Text('Download'), // <-- Text
+                  ),
+                  Padding(padding: EdgeInsets.all(8.0)),
+                  ElevatedButton.icon(
+                    onPressed: () {},
+                    icon: Icon(
+                      // <-- Icon
+                      Icons.download,
+                      size: 24.0,
+                    ),
+                    label: Text('Download'), // <-- Text
+                  ),
+                ],
+              ),
+              Row(
+                children: [
+                  Padding(padding: EdgeInsets.all(4.0)),
+                  ElevatedButton.icon(
+                    onPressed: () {},
+                    icon: Icon(
+                      // <-- Icon
+                      Icons.download,
+                      size: 24.0,
+                    ),
+                    label: Text('Download'), // <-- Text
+                  ),
+                  Padding(padding: EdgeInsets.all(8.0)),
+                  ElevatedButton.icon(
+                    onPressed: () {},
+                    icon: Icon(
+                      // <-- Icon
+                      Icons.download,
+                      size: 24.0,
+                    ),
+                    label: Text('Download'), // <-- Text
+                  ),
+                  Padding(padding: EdgeInsets.all(8.0)),
+                  ElevatedButton.icon(
+                    onPressed: () {},
+                    icon: Icon(
+                      // <-- Icon
+                      Icons.download,
+                      size: 24.0,
+                    ),
+                    label: Text('Download'), // <-- Text
+                  ),
+                ],
+              ),
+            ],
           ),
         ),
       ),
