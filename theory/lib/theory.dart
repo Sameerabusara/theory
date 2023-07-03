@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:theory/first.dart';
 
 class theory extends StatefulWidget {
   theory({Key? key}) : super(key: key);
@@ -15,14 +16,14 @@ class _theoryState extends State<theory> {
         child: Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Title(color: Colors.black, child: Text("Hello World")),
+        title: Title(color: Colors.black, child: const Text("Hello World")),
       ),
       body: Center(
         child: Container(
           child: Column(
             children: [
-              Padding(padding: EdgeInsets.all(8.0)),
-              Text(
+              const Padding(padding: EdgeInsets.all(8.0)),
+              const Text(
                 "اشارات المرور",
                 style: TextStyle(
                   fontSize: 24,
@@ -30,107 +31,192 @@ class _theoryState extends State<theory> {
                 ),
                 textAlign: TextAlign.start,
               ),
-              Row(
-                children: [
-                  Padding(padding: EdgeInsets.all(4.0)),
-                  ElevatedButton.icon(
-                    onPressed: () {},
-                    icon: Icon(
-                      // <-- Icon
-                      Icons.download,
-                      size: 24.0,
+              // const Image(image: AssetImage('lib/images/warning.png')),
+              Padding(
+                padding: const EdgeInsets.all(25.0),
+                child: Row(
+                  children: [
+                    InkWell(
+                      onTap: () {},
+                      child: Column(
+                        children: [
+                          Ink.image(
+                            image: const AssetImage('lib/images/yield.png'),
+                            height: 100,
+                            width: 100,
+                            fit: BoxFit.cover,
+                          ),
+                          const Text(
+                            "حق الأولوية",
+                            style: TextStyle(fontSize: 20),
+                          ),
+                        ],
+                      ),
                     ),
-                    label: Text('Download'), // <-- Text
-                  ),
-                  Padding(padding: EdgeInsets.all(8.0)),
-                  ElevatedButton.icon(
-                    onPressed: () {},
-                    icon: Icon(
-                      // <-- Icon
-                      Icons.download,
-                      size: 24.0,
+                    const Padding(padding: EdgeInsets.all(12.0)),
+                    InkWell(
+                      onTap: () {},
+                      child: Column(
+                        children: [
+                          Ink.image(
+                            image:
+                                const AssetImage('lib/images/ahead-only.png'),
+                            height: 100,
+                            width: 100,
+                            fit: BoxFit.cover,
+                          ),
+                          const Text(
+                            "إرشاد",
+                            style: TextStyle(fontSize: 20),
+                          ),
+                        ],
+                      ),
                     ),
-                    label: Text('Download'), // <-- Text
-                  ),
-                  Padding(padding: EdgeInsets.all(8.0)),
-                  ElevatedButton.icon(
-                    onPressed: () {},
-                    icon: Icon(
-                      // <-- Icon
-                      Icons.download,
-                      size: 24.0,
+                    const Padding(padding: EdgeInsets.all(12.0)),
+                    InkWell(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => first()),
+                        );
+                      },
+                      child: Column(
+                        children: [
+                          Ink.image(
+                            image: const AssetImage('lib/images/warning.png'),
+                            height: 100,
+                            width: 100,
+                            fit: BoxFit.cover,
+                          ),
+                          const Text(
+                            "تحذير",
+                            style: TextStyle(fontSize: 20),
+                          ),
+                        ],
+                      ),
                     ),
-                    label: Text('Download'), // <-- Text
-                  ),
-                ],
+                  ],
+                ),
               ),
-              Row(
-                children: [
-                  Padding(padding: EdgeInsets.all(4.0)),
-                  ElevatedButton.icon(
-                    onPressed: () {},
-                    icon: Icon(
-                      // <-- Icon
-                      Icons.download,
-                      size: 24.0,
+              Padding(
+                padding: const EdgeInsets.all(25.0),
+                child: Row(
+                  children: [
+                    InkWell(
+                      onTap: () {},
+                      child: Column(
+                        children: [
+                          Ink.image(
+                            image: const AssetImage('lib/images/warning.png'),
+                            height: 100,
+                            width: 100,
+                            fit: BoxFit.cover,
+                          ),
+                          const Text(
+                            "اسعلام وتوجيه",
+                            style: TextStyle(fontSize: 20),
+                          ),
+                        ],
+                      ),
                     ),
-                    label: Text('Download'), // <-- Text
-                  ),
-                  Padding(padding: EdgeInsets.all(8.0)),
-                  ElevatedButton.icon(
-                    onPressed: () {},
-                    icon: Icon(
-                      // <-- Icon
-                      Icons.download,
-                      size: 24.0,
+                    const Padding(padding: EdgeInsets.all(12.0)),
+                    InkWell(
+                      onTap: () {},
+                      child: Column(
+                        children: [
+                          Ink.image(
+                            image: const AssetImage('lib/images/warning.png'),
+                            height: 100,
+                            width: 100,
+                            fit: BoxFit.cover,
+                          ),
+                          const Text(
+                            "مواصلات",
+                            style: TextStyle(fontSize: 20),
+                          ),
+                        ],
+                      ),
                     ),
-                    label: Text('Download'), // <-- Text
-                  ),
-                  Padding(padding: EdgeInsets.all(8.0)),
-                  ElevatedButton.icon(
-                    onPressed: () {},
-                    icon: Icon(
-                      // <-- Icon
-                      Icons.download,
-                      size: 24.0,
+                    const Padding(padding: EdgeInsets.all(12.0)),
+                    InkWell(
+                      onTap: () {},
+                      child: Column(
+                        children: [
+                          Ink.image(
+                            image: const AssetImage('lib/images/no-entry.png'),
+                            height: 100,
+                            width: 100,
+                            fit: BoxFit.cover,
+                          ),
+                          const Text(
+                            "منع وتحديد",
+                            style: TextStyle(fontSize: 20),
+                          ),
+                        ],
+                      ),
                     ),
-                    label: Text('Download'), // <-- Text
-                  ),
-                ],
+                  ],
+                ),
               ),
-              Row(
-                children: [
-                  Padding(padding: EdgeInsets.all(4.0)),
-                  ElevatedButton.icon(
-                    onPressed: () {},
-                    icon: Icon(
-                      // <-- Icon
-                      Icons.download,
-                      size: 24.0,
+              Padding(
+                padding: const EdgeInsets.all(25.0),
+                child: Row(
+                  children: [
+                    InkWell(
+                      onTap: () {},
+                      child: Column(
+                        children: [
+                          Ink.image(
+                            image: AssetImage('lib/images/warning.png'),
+                            height: 100,
+                            width: 100,
+                            fit: BoxFit.cover,
+                          ),
+                          const Text(
+                            "إشارات التحذير",
+                            style: TextStyle(fontSize: 20),
+                          ),
+                        ],
+                      ),
                     ),
-                    label: Text('Download'), // <-- Text
-                  ),
-                  Padding(padding: EdgeInsets.all(8.0)),
-                  ElevatedButton.icon(
-                    onPressed: () {},
-                    icon: Icon(
-                      // <-- Icon
-                      Icons.download,
-                      size: 24.0,
+                    const Padding(padding: EdgeInsets.all(12.0)),
+                    InkWell(
+                      onTap: () {},
+                      child: Column(
+                        children: [
+                          Ink.image(
+                            image: const AssetImage('lib/images/warning.png'),
+                            height: 100,
+                            width: 100,
+                            fit: BoxFit.cover,
+                          ),
+                          const Text(
+                            "إشارات التحذير",
+                            style: TextStyle(fontSize: 20),
+                          ),
+                        ],
+                      ),
                     ),
-                    label: Text('Download'), // <-- Text
-                  ),
-                  Padding(padding: EdgeInsets.all(8.0)),
-                  ElevatedButton.icon(
-                    onPressed: () {},
-                    icon: Icon(
-                      // <-- Icon
-                      Icons.download,
-                      size: 24.0,
+                    const Padding(padding: EdgeInsets.all(12.0)),
+                    InkWell(
+                      onTap: () {},
+                      child: Column(
+                        children: [
+                          Ink.image(
+                            image: const AssetImage('lib/images/warning.png'),
+                            height: 100,
+                            width: 100,
+                            fit: BoxFit.cover,
+                          ),
+                          const Text(
+                            "اشارات ضوئية",
+                            style: TextStyle(fontSize: 20),
+                          ),
+                        ],
+                      ),
                     ),
-                    label: Text('Download'), // <-- Text
-                  ),
-                ],
+                  ],
+                ),
               ),
             ],
           ),
