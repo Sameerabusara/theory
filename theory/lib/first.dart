@@ -1188,6 +1188,276 @@ class _firstState extends State<first> {
                         )),
                   ),
                 ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
+                  child: SizedBox(
+                    height: 130,
+                    width: double.infinity,
+                    child: FlipCard(
+                        fill: Fill.fillBack,
+                        front: Row(
+                          children: [
+                            Container(
+                              height: 120,
+                              width: 120,
+                            ),
+                            const Text(
+                              '125',
+                              style: TextStyle(fontSize: 28),
+                            ),
+                            const Flexible(
+                              fit: FlexFit.tight,
+                              child: SizedBox(),
+                            ),
+                            const Image(
+                              image: AssetImage('lib/images/125.png'),
+                            ),
+                          ],
+                        ),
+                        back: Column(
+                          children: [
+                            Container(
+                              height: 100,
+                              width: 100,
+                              child: const Image(
+                                image: AssetImage('lib/images/125.png'),
+                              ),
+                            ),
+                            const Padding(padding: EdgeInsets.all(5.0)),
+                            const Text(
+                              ' (أعط حق الأولوية في الإندماج) إندماج مع شارع فيه حق الأولوية من اليمين',
+                              style: TextStyle(
+                                  fontSize: 12, fontWeight: FontWeight.bold),
+                            ),
+                          ],
+                        )),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
+                  child: SizedBox(
+                    height: 130,
+                    width: double.infinity,
+                    child: FlipCard(
+                        fill: Fill.fillBack,
+                        front: Row(
+                          children: [
+                            Container(
+                              height: 120,
+                              width: 120,
+                            ),
+                            const Text(
+                              '126',
+                              style: TextStyle(fontSize: 28),
+                            ),
+                            const Flexible(
+                              fit: FlexFit.tight,
+                              child: SizedBox(),
+                            ),
+                            const Image(
+                              image: AssetImage('lib/images/126.png'),
+                            ),
+                          ],
+                        ),
+                        back: Column(
+                          children: [
+                            Container(
+                              height: 100,
+                              width: 100,
+                              child: const Image(
+                                image: AssetImage('lib/images/126.png'),
+                              ),
+                            ),
+                            const Padding(padding: EdgeInsets.all(5.0)),
+                            const Text(
+                              ' (أعط حق الأولوية في الإندماج) إندماج مع شارع فيه حق الأولوية من اليسار',
+                              style: TextStyle(
+                                  fontSize: 12, fontWeight: FontWeight.bold),
+                            ),
+                          ],
+                        )),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
+                  child: SizedBox(
+                    height: 130,
+                    width: double.infinity,
+                    child: FlipCard(
+                        fill: Fill.fillBack,
+                        front: Row(
+                          children: [
+                            Container(
+                              height: 120,
+                              width: 120,
+                            ),
+                            const Text(
+                              '127',
+                              style: TextStyle(fontSize: 28),
+                            ),
+                            const Flexible(
+                              fit: FlexFit.tight,
+                              child: SizedBox(),
+                            ),
+                            const Image(
+                              image: AssetImage('lib/images/127.png'),
+                            ),
+                          ],
+                        ),
+                        back: Column(
+                          children: [
+                            Container(
+                              height: 100,
+                              width: 100,
+                              child: const Image(
+                                image: AssetImage('lib/images/127.png'),
+                              ),
+                            ),
+                            const Padding(padding: EdgeInsets.all(5.0)),
+                            const Text(
+                              'أزدحام في حركة السير أمامك',
+                              style: TextStyle(
+                                  fontSize: 12, fontWeight: FontWeight.bold),
+                            ),
+                          ],
+                        )),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
+                  child: SizedBox(
+                    height: 130,
+                    width: double.infinity,
+                    child: FlipCard(
+                        fill: Fill.fillBack,
+                        front: Row(
+                          children: [
+                            Container(
+                              height: 120,
+                              width: 120,
+                            ),
+                            const Text(
+                              '127p',
+                              style: TextStyle(fontSize: 28),
+                            ),
+                            const Flexible(
+                              fit: FlexFit.tight,
+                              child: SizedBox(),
+                            ),
+                            const Image(
+                              image: AssetImage('lib/images/127p.png'),
+                            ),
+                          ],
+                        ),
+                        back: Column(
+                          children: [
+                            Container(
+                              height: 100,
+                              width: 100,
+                              child: const Image(
+                                image: AssetImage('lib/images/127p.png'),
+                              ),
+                            ),
+                            const Padding(padding: EdgeInsets.all(5.0)),
+                            const Text(
+                              ' (شاخصة مضيئة) إزدحام في حركة السير أمامك',
+                              style: TextStyle(
+                                  fontSize: 12, fontWeight: FontWeight.bold),
+                            ),
+                          ],
+                        )),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
+                  child: SizedBox(
+                    height: 130,
+                    width: double.infinity,
+                    child: FlipCard(
+                        fill: Fill.fillBack,
+                        front: Row(
+                          children: [
+                            Container(
+                              height: 120,
+                              width: 120,
+                            ),
+                            const Text(
+                              '128',
+                              style: TextStyle(fontSize: 28),
+                            ),
+                            const Flexible(
+                              fit: FlexFit.tight,
+                              child: SizedBox(),
+                            ),
+                            const Image(
+                              image: AssetImage('lib/images/128_2.png'),
+                            ),
+                          ],
+                        ),
+                        back: Column(
+                          children: [
+                            Container(
+                              height: 100,
+                              width: 100,
+                              child: const Image(
+                                image: AssetImage('lib/images/128_2.png'),
+                              ),
+                            ),
+                            const Padding(padding: EdgeInsets.all(5.0)),
+                            const Text(
+                              'قطار محلي يعبر',
+                              style: TextStyle(
+                                  fontSize: 12, fontWeight: FontWeight.bold),
+                            ),
+                          ],
+                        )),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
+                  child: SizedBox(
+                    height: 130,
+                    width: double.infinity,
+                    child: FlipCard(
+                        fill: Fill.fillBack,
+                        front: Row(
+                          children: [
+                            Container(
+                              height: 120,
+                              width: 120,
+                            ),
+                            const Text(
+                              '128',
+                              style: TextStyle(fontSize: 28),
+                            ),
+                            const Flexible(
+                              fit: FlexFit.tight,
+                              child: SizedBox(),
+                            ),
+                            const Image(
+                              image: AssetImage('lib/images/128.png'),
+                            ),
+                          ],
+                        ),
+                        back: Column(
+                          children: [
+                            Container(
+                              height: 100,
+                              width: 100,
+                              child: const Image(
+                                image: AssetImage('lib/images/128.png'),
+                              ),
+                            ),
+                            const Padding(padding: EdgeInsets.all(5.0)),
+                            const Text(
+                              'قطار محلي يعبر',
+                              style: TextStyle(
+                                  fontSize: 12, fontWeight: FontWeight.bold),
+                            ),
+                          ],
+                        )),
+                  ),
+                ),
               ],
             ),
           ),
