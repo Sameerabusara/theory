@@ -20,7 +20,7 @@ class _theoryState extends State<theory> {
         title: Title(color: Colors.black, child: const Text("Hello World")),
       ),
       body: Center(
-        child: Container(
+        child: SingleChildScrollView(
           child: Column(
             children: [
               const Padding(padding: EdgeInsets.all(8.0)),
@@ -173,13 +173,13 @@ class _theoryState extends State<theory> {
                       child: Column(
                         children: [
                           Ink.image(
-                            image: AssetImage('lib/images/warning.png'),
+                            image: const AssetImage('lib/images/warning.png'),
                             height: 100,
                             width: 100,
                             fit: BoxFit.cover,
                           ),
                           const Text(
-                            "إشارات التحذير",
+                            "اسعلام وتوجيه",
                             style: TextStyle(fontSize: 20),
                           ),
                         ],
@@ -197,7 +197,7 @@ class _theoryState extends State<theory> {
                             fit: BoxFit.cover,
                           ),
                           const Text(
-                            "إشارات التحذير",
+                            "مواصلات",
                             style: TextStyle(fontSize: 20),
                           ),
                         ],
@@ -209,13 +209,13 @@ class _theoryState extends State<theory> {
                       child: Column(
                         children: [
                           Ink.image(
-                            image: const AssetImage('lib/images/warning.png'),
+                            image: const AssetImage('lib/images/no-entry.png'),
                             height: 100,
                             width: 100,
                             fit: BoxFit.cover,
                           ),
                           const Text(
-                            "اشارات ضوئية",
+                            "منع وتحديد",
                             style: TextStyle(fontSize: 20),
                           ),
                         ],

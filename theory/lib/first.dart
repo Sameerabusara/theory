@@ -28,7 +28,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -74,7 +74,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -120,7 +120,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -166,7 +166,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -212,7 +212,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -258,7 +258,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -304,7 +304,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -354,7 +354,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -404,7 +404,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -454,7 +454,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -504,7 +504,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -554,7 +554,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -604,7 +604,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -654,7 +654,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -704,7 +704,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -754,7 +754,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -804,7 +804,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -854,7 +854,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -904,7 +904,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -954,7 +954,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -1004,7 +1004,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -1054,7 +1054,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -1100,7 +1100,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                       fill: Fill.fillBack,
@@ -1146,7 +1146,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -1191,7 +1191,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -1236,7 +1236,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -1281,7 +1281,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -1326,7 +1326,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -1371,7 +1371,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -1416,7 +1416,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -1461,7 +1461,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -1506,7 +1506,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -1551,7 +1551,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -1641,7 +1641,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -1686,7 +1686,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -1731,7 +1731,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -1776,7 +1776,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -1821,7 +1821,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -1866,7 +1866,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -1911,7 +1911,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -1956,7 +1956,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -2001,7 +2001,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -2046,7 +2046,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -2091,7 +2091,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -2136,7 +2136,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -2181,7 +2181,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -2226,7 +2226,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -2271,7 +2271,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -2316,7 +2316,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -2361,7 +2361,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -2406,7 +2406,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -2451,7 +2451,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -2496,7 +2496,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -2541,7 +2541,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -2586,7 +2586,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -2631,7 +2631,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
@@ -2676,7 +2676,7 @@ class _firstState extends State<first> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
                   child: SizedBox(
-                    height: 130,
+                    height: 150,
                     width: double.infinity,
                     child: FlipCard(
                         fill: Fill.fillBack,
