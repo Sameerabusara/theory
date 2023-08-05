@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:theory/first.dart';
+import 'package:theory/second.dart';
 
 class theory extends StatefulWidget {
   theory({Key? key}) : super(key: key);
@@ -55,7 +56,12 @@ class _theoryState extends State<theory> {
                     ),
                     const Padding(padding: EdgeInsets.all(12.0)),
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => second()),
+                        );
+                      },
                       child: Column(
                         children: [
                           Ink.image(
