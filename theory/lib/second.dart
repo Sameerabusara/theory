@@ -24,377 +24,122 @@ class _secondState extends State<second> {
         body: Center(
           child: SingleChildScrollView(
             child: Column(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
-                  child: SizedBox(
-                    height: 150,
-                    width: double.infinity,
-                    child: FlipCard(
-                        fill: Fill.fillBack,
-                        front: Row(
-                          children: [
-                            Container(
-                              height: 120,
-                              width: 120,
-                            ),
-                            const Text(
-                              '201',
-                              style: TextStyle(fontSize: 28),
-                            ),
-                            const Flexible(
-                              fit: FlexFit.tight,
-                              child: SizedBox(),
-                            ),
-                            const Image(
-                              image: AssetImage('lib/images/201.png'),
-                            ),
-                          ],
-                        ),
-                        back: Column(
-                          children: [
-                            Container(
-                              height: 100,
-                              width: 100,
-                              child: const Image(
-                                image: AssetImage('lib/images/201.png'),
-                              ),
-                            ),
-                            const Padding(padding: EdgeInsets.all(5.0)),
-                            const Text(
-                              'سر للأمام أو لليمين. (إنعطاف حدوة الفرس مسموح). إذا كان السهم باللون الأصفر يشير الى اتجاه السير للمواصلات العمومية فقط',
-                              style: TextStyle(
-                                  fontSize: 12, fontWeight: FontWeight.bold),
-                              textAlign: TextAlign.end,
-                            ),
-                          ],
-                        )),
-                  ),
+              children: const [
+                _ImageTile(
+                  name: '201',
+                  imageNum: '201',
+                  info:
+                      'سر للأمام أو لليمين. (إنعطاف حدوة الفرس مسموح). إذا كان السهم باللون الأصفر يشير الى اتجاه السير للمواصلات العمومية فقط',
                 ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
-                  child: SizedBox(
-                    height: 150,
-                    width: double.infinity,
-                    child: FlipCard(
-                        fill: Fill.fillBack,
-                        front: Row(
-                          children: [
-                            Container(
-                              height: 120,
-                              width: 120,
-                            ),
-                            const Text(
-                              '202',
-                              style: TextStyle(fontSize: 28),
-                            ),
-                            const Flexible(
-                              fit: FlexFit.tight,
-                              child: SizedBox(),
-                            ),
-                            const Image(
-                              image: AssetImage('lib/images/202.png'),
-                            ),
-                          ],
-                        ),
-                        back: Column(
-                          children: [
-                            Container(
-                              height: 100,
-                              width: 100,
-                              child: const Image(
-                                image: AssetImage('lib/images/202.png'),
-                              ),
-                            ),
-                            const Padding(padding: EdgeInsets.all(5.0)),
-                            const Text(
-                              'سر للأمام أو لليسار. (إنعطاف حدوة الفرس مسموح). إذا كان السهم باللون الأصفر يشير الى اتجاه السير للمواصلات العمومية فقط',
-                              style: TextStyle(
-                                  fontSize: 12, fontWeight: FontWeight.bold),
-                              textAlign: TextAlign.end,
-                            ),
-                          ],
-                        )),
-                  ),
+                _ImageTile(
+                  name: '202',
+                  imageNum: '202',
+                  info:
+                      'سر للأمام أو لليسار. (إنعطاف حدوة الفرس مسموح). إذا كان السهم باللون الأصفر يشير الى اتجاه السير للمواصلات العمومية فقط',
                 ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
-                  child: SizedBox(
-                    height: 150,
-                    width: double.infinity,
-                    child: FlipCard(
-                        fill: Fill.fillBack,
-                        front: Row(
-                          children: [
-                            Container(
-                              height: 120,
-                              width: 120,
-                            ),
-                            const Text(
-                              '203',
-                              style: TextStyle(fontSize: 28),
-                            ),
-                            const Flexible(
-                              fit: FlexFit.tight,
-                              child: SizedBox(),
-                            ),
-                            const Image(
-                              image: AssetImage('lib/images/203.png'),
-                            ),
-                          ],
-                        ),
-                        back: Column(
-                          children: [
-                            Container(
-                              height: 100,
-                              width: 100,
-                              child: const Image(
-                                image: AssetImage('lib/images/203.png'),
-                              ),
-                            ),
-                            const Padding(padding: EdgeInsets.all(5.0)),
-                            const Text(
-                              'سر للأمام. (إنعطاف حدوة الفرس ممنوع). إذا كان السهم مائل الإتجاه سر بإتجاه السهم',
-                              style: TextStyle(
-                                  fontSize: 12, fontWeight: FontWeight.bold),
-                              textAlign: TextAlign.end,
-                            ),
-                          ],
-                        )),
-                  ),
+                _ImageTile(
+                  name: '203',
+                  imageNum: '203',
+                  info:
+                      'سر للأمام. (إنعطاف حدوة الفرس ممنوع). إذا كان السهم مائل الإتجاه سر بإتجاه السهم',
                 ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
-                  child: SizedBox(
-                    height: 150,
-                    width: double.infinity,
-                    child: FlipCard(
-                        fill: Fill.fillBack,
-                        front: Row(
-                          children: [
-                            Container(
-                              height: 120,
-                              width: 120,
-                            ),
-                            const Text(
-                              '204',
-                              style: TextStyle(fontSize: 28),
-                            ),
-                            const Flexible(
-                              fit: FlexFit.tight,
-                              child: SizedBox(),
-                            ),
-                            const Image(
-                              image: AssetImage('lib/images/204.png'),
-                            ),
-                          ],
-                        ),
-                        back: Column(
-                          children: [
-                            Container(
-                              height: 100,
-                              width: 100,
-                              child: const Image(
-                                image: AssetImage('lib/images/204.png'),
-                              ),
-                            ),
-                            const Padding(padding: EdgeInsets.all(5.0)),
-                            const Text(
-                              'سر لليمين أعبر من أمام الإشارة. (إنعطاف حدوة الفرس مسموح)',
-                              style: TextStyle(
-                                  fontSize: 12, fontWeight: FontWeight.bold),
-                              textAlign: TextAlign.end,
-                            ),
-                          ],
-                        )),
-                  ),
+                _ImageTile(
+                  name: '204',
+                  imageNum: '204',
+                  info:
+                      'سر لليمين أعبر من أمام الإشارة. (إنعطاف حدوة الفرس مسموح)',
                 ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
-                  child: SizedBox(
-                    height: 150,
-                    width: double.infinity,
-                    child: FlipCard(
-                        fill: Fill.fillBack,
-                        front: Row(
-                          children: [
-                            Container(
-                              height: 120,
-                              width: 120,
-                            ),
-                            const Text(
-                              '205',
-                              style: TextStyle(fontSize: 28),
-                            ),
-                            const Flexible(
-                              fit: FlexFit.tight,
-                              child: SizedBox(),
-                            ),
-                            const Image(
-                              image: AssetImage('lib/images/205.png'),
-                            ),
-                          ],
-                        ),
-                        back: Column(
-                          children: [
-                            Container(
-                              height: 100,
-                              width: 100,
-                              child: const Image(
-                                image: AssetImage('lib/images/205.png'),
-                              ),
-                            ),
-                            const Padding(padding: EdgeInsets.all(5.0)),
-                            const Text(
-                              'سر لليسار أعبر من أمام الإشارة. (إنعطاف حدوة الفرس مسموح)',
-                              style: TextStyle(
-                                  fontSize: 12, fontWeight: FontWeight.bold),
-                              textAlign: TextAlign.end,
-                            ),
-                          ],
-                        )),
-                  ),
+                _ImageTile(
+                  name: '205',
+                  imageNum: '205',
+                  info:
+                      'سر لليسار أعبر من أمام الإشارة. (إنعطاف حدوة الفرس مسموح)',
                 ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
-                  child: SizedBox(
-                    height: 150,
-                    width: double.infinity,
-                    child: FlipCard(
-                        fill: Fill.fillBack,
-                        front: Row(
-                          children: [
-                            Container(
-                              height: 120,
-                              width: 120,
-                            ),
-                            const Text(
-                              '206',
-                              style: TextStyle(fontSize: 28),
-                            ),
-                            const Flexible(
-                              fit: FlexFit.tight,
-                              child: SizedBox(),
-                            ),
-                            const Image(
-                              image: AssetImage('lib/images/206.png'),
-                            ),
-                          ],
-                        ),
-                        back: Column(
-                          children: [
-                            Container(
-                              height: 100,
-                              width: 100,
-                              child: const Image(
-                                image: AssetImage('lib/images/206.png'),
-                              ),
-                            ),
-                            const Padding(padding: EdgeInsets.all(5.0)),
-                            const Text(
-                              'سر لليمين أعبر من خلف الإشارة. (إنعطاف حدوة الفرس مسموح)',
-                              style: TextStyle(
-                                  fontSize: 12, fontWeight: FontWeight.bold),
-                              textAlign: TextAlign.end,
-                            ),
-                          ],
-                        )),
-                  ),
+                _ImageTile(
+                  name: '206',
+                  imageNum: '206',
+                  info:
+                      'سر لليمين أعبر من خلف الإشارة. (إنعطاف حدوة الفرس مسموح)',
                 ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
-                  child: SizedBox(
-                    height: 150,
-                    width: double.infinity,
-                    child: FlipCard(
-                        fill: Fill.fillBack,
-                        front: Row(
-                          children: [
-                            Container(
-                              height: 120,
-                              width: 120,
-                            ),
-                            const Text(
-                              '207',
-                              style: TextStyle(fontSize: 28),
-                            ),
-                            const Flexible(
-                              fit: FlexFit.tight,
-                              child: SizedBox(),
-                            ),
-                            const Image(
-                              image: AssetImage('lib/images/207.png'),
-                            ),
-                          ],
-                        ),
-                        back: Column(
-                          children: [
-                            Container(
-                              height: 100,
-                              width: 100,
-                              child: const Image(
-                                image: AssetImage('lib/images/207.png'),
-                              ),
-                            ),
-                            const Padding(padding: EdgeInsets.all(5.0)),
-                            const Text(
-                              'سر لليسار أعبر من خلف الإشارة. (إنعطاف حدوة الفرس مسموح)',
-                              style: TextStyle(
-                                  fontSize: 12, fontWeight: FontWeight.bold),
-                              textAlign: TextAlign.end,
-                            ),
-                          ],
-                        )),
-                  ),
+                _ImageTile(
+                  name: '207',
+                  imageNum: '207',
+                  info:
+                      'سر لليسار أعبر من خلف الإشارة. (إنعطاف حدوة الفرس مسموح)',
                 ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
-                  child: SizedBox(
-                    height: 150,
-                    width: double.infinity,
-                    child: FlipCard(
-                        fill: Fill.fillBack,
-                        front: Row(
-                          children: [
-                            Container(
-                              height: 120,
-                              width: 120,
-                            ),
-                            const Text(
-                              '208',
-                              style: TextStyle(fontSize: 28),
-                            ),
-                            const Flexible(
-                              fit: FlexFit.tight,
-                              child: SizedBox(),
-                            ),
-                            const Image(
-                              image: AssetImage('lib/images/208.png'),
-                            ),
-                          ],
-                        ),
-                        back: Column(
-                          children: [
-                            Container(
-                              height: 100,
-                              width: 100,
-                              child: const Image(
-                                image: AssetImage('lib/images/208.png'),
-                              ),
-                            ),
-                            const Padding(padding: EdgeInsets.all(5.0)),
-                            const Text(
-                              'سر لليمين أو لليسار. (إنعطاف حدوة الفرس مسموح)',
-                              style: TextStyle(
-                                  fontSize: 12, fontWeight: FontWeight.bold),
-                              textAlign: TextAlign.end,
-                            ),
-                          ],
-                        )),
-                  ),
+                _ImageTile(
+                  name: '208',
+                  imageNum: '208',
+                  info: 'سر لليمين أو لليسار. (إنعطاف حدوة الفرس مسموح)',
                 ),
               ],
             ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _ImageTile extends StatelessWidget {
+  final String name;
+  final String imageNum;
+  final String info;
+
+  const _ImageTile(
+      {Key? key,
+      required this.name,
+      required this.imageNum,
+      required this.info})
+      : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
+      child: SizedBox(
+        height: 165,
+        width: double.infinity,
+        child: FlipCard(
+          fill: Fill.fillBack,
+          front: Row(
+            children: [
+              Container(
+                height: 120,
+                width: 120,
+              ),
+              Text(
+                name,
+                style: TextStyle(fontSize: 28),
+              ),
+              const Flexible(
+                fit: FlexFit.tight,
+                child: SizedBox(),
+              ),
+              Container(
+                height: 200,
+                width: 200,
+                child: Image(
+                  image: AssetImage('lib/images/${imageNum}.png'),
+                ),
+              ),
+            ],
+          ),
+          back: Column(
+            children: [
+              Container(
+                height: 100,
+                width: 100,
+                child: Image(
+                  image: AssetImage('lib/images/${imageNum}.png'),
+                ),
+              ),
+              const Padding(padding: EdgeInsets.all(5.0)),
+              Text(
+                info,
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+              ),
+            ],
           ),
         ),
       ),

@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:theory/first.dart';
 import 'package:theory/second.dart';
+import 'package:theory/third.dart';
 
 class theory extends StatefulWidget {
   theory({Key? key}) : super(key: key);
@@ -38,7 +39,12 @@ class _theoryState extends State<theory> {
                 child: Row(
                   children: [
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => third()),
+                        );
+                      },
                       child: Column(
                         children: [
                           Ink.image(
