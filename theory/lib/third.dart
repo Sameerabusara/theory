@@ -18,7 +18,7 @@ class _thirdState extends State<third> {
           centerTitle: true,
           title: Title(
             color: Colors.black,
-            child: const Text("إشارات إرشاد"),
+            child: const Text("حق الأولوية"),
           ),
         ),
         body: Center(
@@ -26,9 +26,59 @@ class _thirdState extends State<third> {
             child: Column(
               children: const [
                 _ImageTile(
-                  name: '203',
-                  // imagePath: 'lib/images/201.png',
-                  info: 'h3llo',
+                  name: '301',
+                  imageNum: '301',
+                  info:
+                      'امنح حق المرور لحركة المرور في طريق الخروج بما في ذلك سكة حديدية',
+                ),
+                _ImageTile(
+                  name: '302',
+                  imageNum: '302',
+                  info:
+                      'توقف! أعط حق الطريق لحركة المرور في طريق الخروج ، بما في ذلك سكة حديدية',
+                ),
+                _ImageTile(
+                  name: '303',
+                  imageNum: '303',
+                  info:
+                      'أعط حق الطريق لحركة المرور التي تعبر في الدوار أو على المسار. المرور بالدائرة المرورية من جانبها الأيمن',
+                ),
+                _ImageTile(
+                  name: '304',
+                  imageNum: '304',
+                  info: 'قف! (إشارة متنقلة)',
+                ),
+                _ImageTile(
+                  name: '305',
+                  imageNum: '305',
+                  info: 'تقدم بحذر (إشارة متنقلة)',
+                ),
+                _ImageTile(
+                  name: '306',
+                  imageNum: '306',
+                  info: 'اعط حق الأولوية لعبور المشاة',
+                ),
+                _ImageTile(
+                  name: '307',
+                  imageNum: '307',
+                  info:
+                      'أعط حق الأولوية في جزء الطريق الضيق لحركة المرور من الاتجاه المعاكس',
+                ),
+                _ImageTile(
+                  name: '308',
+                  imageNum: '308',
+                  info:
+                      'لك حق الأولوية في جزء الطريق الضيق لحركة المرور من الاتجاه المعاكس',
+                ),
+                _ImageTile(
+                  name: '309',
+                  imageNum: '309',
+                  info: 'لك حق الأولوية',
+                ),
+                _ImageTile(
+                  name: '310',
+                  imageNum: '310',
+                  info: 'نهاية الطريق حيث لديك حق الأولوية',
                 ),
               ],
             ),
@@ -41,13 +91,13 @@ class _thirdState extends State<third> {
 
 class _ImageTile extends StatelessWidget {
   final String name;
-  // final String imagePath;
+  final String imageNum;
   final String info;
 
   const _ImageTile(
       {Key? key,
-      // required this.imagePath,
       required this.name,
+      required this.imageNum,
       required this.info})
       : super(key: key);
 
@@ -56,46 +106,50 @@ class _ImageTile extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.fromLTRB(12.0, 20.0, 20.0, 12.0),
       child: SizedBox(
-        height: 150,
+        height: 165,
         width: double.infinity,
         child: FlipCard(
-            fill: Fill.fillBack,
-            front: Row(
-              children: [
-                Container(
-                  height: 120,
-                  width: 120,
+          fill: Fill.fillBack,
+          front: Row(
+            children: [
+              Container(
+                height: 120,
+                width: 120,
+              ),
+              Text(
+                name,
+                style: TextStyle(fontSize: 28),
+              ),
+              const Flexible(
+                fit: FlexFit.tight,
+                child: SizedBox(),
+              ),
+              Container(
+                height: 200,
+                width: 200,
+                child: Image(
+                  image: AssetImage('lib/images/${imageNum}.png'),
                 ),
-                Text(
-                  name,
-                  style: TextStyle(fontSize: 28),
+              ),
+            ],
+          ),
+          back: Column(
+            children: [
+              Container(
+                height: 100,
+                width: 100,
+                child: Image(
+                  image: AssetImage('lib/images/${imageNum}.png'),
                 ),
-                const Flexible(
-                  fit: FlexFit.tight,
-                  child: SizedBox(),
-                ),
-                Image(
-                  image: AssetImage('lib/images/${name}.png'),
-                ),
-              ],
-            ),
-            back: Column(
-              children: [
-                Container(
-                  height: 100,
-                  width: 100,
-                  child: Image(
-                    image: AssetImage('lib/images/${name}.png'),
-                  ),
-                ),
-                const Padding(padding: EdgeInsets.all(5.0)),
-                Text(
-                  info,
-                  style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold),
-                  textAlign: TextAlign.end,
-                ),
-              ],
-            )),
+              ),
+              const Padding(padding: EdgeInsets.all(5.0)),
+              Text(
+                info,
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }

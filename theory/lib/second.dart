@@ -72,6 +72,135 @@ class _secondState extends State<second> {
                   imageNum: '208',
                   info: 'سر لليمين أو لليسار. (إنعطاف حدوة الفرس مسموح)',
                 ),
+                _ImageTile(
+                  name: '209',
+                  imageNum: '209',
+                  info:
+                      'سر للأمام او قم بإنعطاف حدوة فرس يمينا. إنعطاف حدوة فرس يسارا ممنوع',
+                ),
+                _ImageTile(
+                  name: '210',
+                  imageNum: '210',
+                  info:
+                      'سر للأمام او قم بإنعطاف حدوة فرس يسارا. إنعطاف حدوة فرس يمينا ممنوع',
+                ),
+                _ImageTile(
+                  name: '211',
+                  imageNum: '211',
+                  info: 'إنعطف حدوة فرس يمينا',
+                ),
+                _ImageTile(
+                  name: '212',
+                  imageNum: '212',
+                  info: 'إنعطف حدوة فرس يسارا',
+                ),
+                _ImageTile(
+                  name: '213',
+                  imageNum: '213',
+                  info: 'اعبر باتجاه المؤشر من اليمين أو اليسار',
+                ),
+                _ImageTile(
+                  name: '214',
+                  imageNum: '214',
+                  info: 'اعبر باتجاه المؤشر من اليمين',
+                ),
+                _ImageTile(
+                  name: '215',
+                  imageNum: '215',
+                  info: 'اعبر باتجاه المؤشر من اليسار',
+                ),
+                _ImageTile(
+                  name: '216',
+                  imageNum: '216',
+                  info: 'الدخول لطريق سريع. حتى إشارة 217 أو 424',
+                ),
+                _ImageTile(
+                  name: '217',
+                  imageNum: '217',
+                  info: 'نهاية الطريق السريع',
+                ),
+                _ImageTile(
+                  name: '218',
+                  imageNum: '218',
+                  info:
+                      'طريق لمركبة آلية قادرة ومصرح لها على التحرك بسرعة لا تقل عن تلك المبينة على لافتة الطريق بالكيلو متر في الساعة',
+                ),
+                _ImageTile(
+                  name: '219',
+                  imageNum: '219',
+                  info: 'الطريق للمركبات الآلية فقط',
+                ),
+                _ImageTile(
+                  name: '220',
+                  imageNum: '220',
+                  info: 'شارع مختلط (موحد) حتى إشارة 221',
+                ),
+                _ImageTile(
+                  name: '221',
+                  imageNum: '221',
+                  info: 'نهاية الشارع المختلط',
+                ),
+                _ImageTile(
+                  name: '222',
+                  imageNum: '222',
+                  info: 'منطقة تباطؤ حركة المرور',
+                ),
+                _ImageTile(
+                  name: '223',
+                  imageNum: '223',
+                  info: 'نهاية منطقة تباطؤ حركة المرور',
+                ),
+                _ImageTile(
+                  name: '224',
+                  imageNum: '224',
+                  info: 'ممر باتجاه واحد لحركة مرور الدراجات الهوائية',
+                ),
+                _ImageTile(
+                  name: '225',
+                  imageNum: '225',
+                  info: 'نهاية ممر باتجاه واحد لحركة مرور الدراجات الهوائية',
+                ),
+                _ImageTile(
+                  name: '226',
+                  imageNum: '226',
+                  info: 'طريق للمشاة فقط',
+                ),
+                _ImageTile(
+                  name: '227',
+                  imageNum: '227',
+                  info: 'مسار للدراجات الهوائية فقط',
+                ),
+                _ImageTile(
+                  name: '228',
+                  imageNum: '228',
+                  info: 'طريق مشترك للمشاة و الدراجات الهوائية',
+                ),
+                _ImageTile(
+                  name: '229',
+                  imageNum: '229',
+                  info:
+                      'مسار منفصل للمشاة فقط ، ومسار منفصل لحركة مرور الدراجات الهوائية فقط',
+                ),
+                _ImageTile(
+                  name: '230',
+                  imageNum: '230a',
+                  info: 'طريق برسوم',
+                ),
+                _ImageTile(
+                  name: '230',
+                  imageNum: '230b',
+                  info: 'الطريق برسوم',
+                ),
+                _ImageTile(
+                  name: '231',
+                  imageNum: '231a',
+                  info: 'إنتهاء الطريق برسوم',
+                ),
+                _ImageTile(
+                  name: '231',
+                  imageNum: '231b',
+                  info: 'إنتهاء الطريق برسوم',
+                ),
               ],
             ),
           ),
