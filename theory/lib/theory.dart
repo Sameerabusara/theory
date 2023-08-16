@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:theory/first.dart';
+import 'package:theory/fourth.dart';
 import 'package:theory/second.dart';
 import 'package:theory/third.dart';
 
@@ -151,7 +152,12 @@ class _theoryState extends State<theory> {
                     ),
                     const Padding(padding: EdgeInsets.all(12.0)),
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => fourth()),
+                        );
+                      },
                       child: Column(
                         children: [
                           Ink.image(
