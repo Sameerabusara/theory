@@ -33,7 +33,7 @@ class _fourthState extends State<fourth> {
                 _ImageTile(
                   name: '401p',
                   imageNum: '401p',
-                  info: 'الطريق مغلق في كلا الاتجاهين لأي مركبة اشارة ضوئية',
+                  info: 'الطريق مغلق في كلا الاتجاهين لأي مركبة (اشارة ضوئية)',
                 ),
                 _ImageTile(
                   name: '402',
