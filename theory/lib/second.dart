@@ -267,6 +267,7 @@ class _ImageTile extends StatelessWidget {
               Text(
                 info,
                 style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                textAlign: TextAlign.end,
               ),
             ],
           ),
