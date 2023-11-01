@@ -4,6 +4,7 @@ import 'package:theory/%20fifth.dart';
 import 'package:theory/first.dart';
 import 'package:theory/fourth.dart';
 import 'package:theory/second.dart';
+import 'package:theory/sixth.dart';
 import 'package:theory/third.dart';
 
 class theory extends StatefulWidget {
@@ -117,7 +118,12 @@ class _theoryState extends State<theory> {
                 child: Row(
                   children: [
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => sixth()),
+                        );
+                      },
                       child: Column(
                         children: [
                           Ink.image(
@@ -127,7 +133,7 @@ class _theoryState extends State<theory> {
                             fit: BoxFit.cover,
                           ),
                           const Text(
-                            "اسعلام وتوجيه",
+                            "إعلام وتوجيه",
                             style: TextStyle(fontSize: 20),
                           ),
                         ],
@@ -144,7 +150,7 @@ class _theoryState extends State<theory> {
                       child: Column(
                         children: [
                           Ink.image(
-                            image: const AssetImage('lib/images/warning.png'),
+                            image: const AssetImage('lib/images/505.png'),
                             height: 100,
                             width: 100,
                             fit: BoxFit.cover,
