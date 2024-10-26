@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_import, camel_case_types, prefer_const_constructors_in_immutables, sized_box_for_whitespace, unnecessary_brace_in_string_interps
+
 import 'package:flip_card/flip_card.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -21,10 +23,10 @@ class _sixthState extends State<sixth> {
             child: const Text("إعلام وتوجيه"),
           ),
         ),
-        body: Center(
+        body: const Center(
           child: SingleChildScrollView(
             child: Column(
-              children: const [
+              children: [
                 _ImageTile(
                   name: '601',
                   imageNum: '601',
@@ -269,7 +271,7 @@ class _ImageTile extends StatelessWidget {
               ),
               Text(
                 name,
-                style: TextStyle(fontSize: 28),
+                style: const TextStyle(fontSize: 28),
               ),
               const Flexible(
                 fit: FlexFit.tight,
@@ -296,7 +298,8 @@ class _ImageTile extends StatelessWidget {
               const Padding(padding: EdgeInsets.all(5.0)),
               Text(
                 info,
-                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                style:
+                    const TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 textAlign: TextAlign.end,
               ),
             ],
