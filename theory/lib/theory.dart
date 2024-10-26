@@ -4,6 +4,7 @@ import 'package:theory/%20fifth.dart';
 import 'package:theory/first.dart';
 import 'package:theory/fourth.dart';
 import 'package:theory/second.dart';
+import 'package:theory/seventh.dart';
 import 'package:theory/sixth.dart';
 import 'package:theory/third.dart';
 
@@ -229,7 +230,12 @@ class _theoryState extends State<theory> {
                     ),
                     const Padding(padding: EdgeInsets.all(12.0)),
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => seventh()),
+                        );
+                      },
                       child: Column(
                         children: [
                           Ink.image(

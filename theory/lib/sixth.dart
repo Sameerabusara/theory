@@ -231,25 +231,6 @@ class _sixthState extends State<sixth> {
                   imageNum: '637',
                   info: 'خليج للتوقف في حالات الطوارئ',
                 ),
-                // ElevatedButton(
-                //   onPressed: () {
-                //     // Handle button press
-                //   },
-                //   style: ElevatedButton.styleFrom(
-                //     primary: Colors.blue, // Button background color
-                //     onPrimary: Colors.white, // Text color
-                //     shape: RoundedRectangleBorder(
-                //       borderRadius:
-                //           BorderRadius.circular(20.0), // Button border radius
-                //     ),
-                //     padding: EdgeInsets.symmetric(
-                //         vertical: 15.0, horizontal: 40.0), // Button padding
-                //   ),
-                //   child: Text(
-                //     'Click Me',
-                //     style: TextStyle(fontSize: 18.0),
-                //   ),
-                // ),
               ],
             ),
           ),

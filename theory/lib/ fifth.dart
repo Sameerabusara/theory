@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class fifth extends StatefulWidget {
-  fifth({Key? key}) : super(key: key);
+  const fifth({Key? key}) : super(key: key);
 
   @override
   State<fifth> createState() => _fifthState();
@@ -21,10 +21,10 @@ class _fifthState extends State<fifth> {
             child: const Text("مواصلات"),
           ),
         ),
-        body: Center(
+        body: const Center(
           child: SingleChildScrollView(
             child: Column(
-              children: const [
+              children: [
                 _ImageTile(
                   name: '501',
                   imageNum: '501',
@@ -141,40 +141,41 @@ class _ImageTile extends StatelessWidget {
           fill: Fill.fillBack,
           front: Row(
             children: [
-              Container(
+              SizedBox(
                 height: 120,
                 width: 120,
               ),
               Text(
                 name,
-                style: TextStyle(fontSize: 28),
+                style: const TextStyle(fontSize: 28),
               ),
               const Flexible(
                 fit: FlexFit.tight,
                 child: SizedBox(),
               ),
-              Container(
+              SizedBox(
                 height: 200,
                 width: 200,
                 child: Image(
-                  image: AssetImage('lib/images/${imageNum}.png'),
+                  image: AssetImage('lib/images/$imageNum.png'),
                 ),
               ),
             ],
           ),
           back: Column(
             children: [
-              Container(
+              SizedBox(
                 height: 100,
                 width: 100,
                 child: Image(
-                  image: AssetImage('lib/images/${imageNum}.png'),
+                  image: AssetImage('lib/images/$imageNum.png'),
                 ),
               ),
               const Padding(padding: EdgeInsets.all(5.0)),
               Text(
                 info,
-                style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+                style:
+                    const TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
                 textAlign: TextAlign.end,
               ),
             ],
