@@ -1,4 +1,5 @@
-import 'package:flutter/cupertino.dart';
+// ignore_for_file: camel_case_types, prefer_const_constructors_in_immutables
+
 import 'package:flutter/material.dart';
 import 'package:theory/%20fifth.dart';
 import 'package:theory/first.dart';
@@ -145,7 +146,8 @@ class _theoryState extends State<theory> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => fifth()),
+                          MaterialPageRoute(
+                              builder: (context) => const fifth()),
                         );
                       },
                       child: Column(
@@ -233,7 +235,8 @@ class _theoryState extends State<theory> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => seventh()),
+                          MaterialPageRoute(
+                              builder: (context) => const seventh()),
                         );
                       },
                       child: Column(
