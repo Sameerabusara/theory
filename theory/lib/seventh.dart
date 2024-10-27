@@ -90,6 +90,76 @@ class _seventhState extends State<seventh> {
                   imageNum: '712',
                   info: '',
                 ),
+                _ImageTile(
+                  name: '713',
+                  imageNum: '713',
+                  info: '',
+                ),
+                _ImageTile(
+                  name: '714',
+                  imageNum: '714',
+                  info: '',
+                ),
+                _ImageTile(
+                  name: '715',
+                  imageNum: '715',
+                  info: '',
+                ),
+                _ImageTile(
+                  name: '716',
+                  imageNum: '716',
+                  info: '',
+                ),
+                _ImageTile(
+                  name: '717',
+                  imageNum: '717',
+                  info: '',
+                ),
+                _ImageTile(
+                  name: '718',
+                  imageNum: '718',
+                  info: '',
+                ),
+                _ImageTile(
+                  name: '719',
+                  imageNum: '719',
+                  info: '',
+                ),
+                _ImageTile(
+                  name: '720',
+                  imageNum: '720',
+                  info: '',
+                ),
+                _ImageTile(
+                  name: '721',
+                  imageNum: '721',
+                  info: '',
+                ),
+                _ImageTile(
+                  name: '722',
+                  imageNum: '722',
+                  info: 'رمزور متقطع قبل ملتقى سكه حديد',
+                ),
+                _ImageTile(
+                  name: '723',
+                  imageNum: '723',
+                  info: 'مسلك مغلق',
+                ),
+                _ImageTile(
+                  name: '724',
+                  imageNum: '724',
+                  info: 'مسلك مفتوح',
+                ),
+                _ImageTile(
+                  name: '725',
+                  imageNum: '725',
+                  info: 'انتقل للمسلك المجاور يمين او يسار',
+                ),
+                _ImageTile(
+                  name: '726',
+                  imageNum: '726',
+                  info: 'خروج من المسلك',
+                ),
               ],
             ),
           ),
